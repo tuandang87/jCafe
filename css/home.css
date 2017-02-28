@@ -1,0 +1,253 @@
+@CHARSET "UTF-8";
+
+.home {
+	margin-left: 5px;
+	padding: 0px;
+}
+
+.guest-queue-label {
+	margin-top:0px;
+	margin-bottom:5px;
+	margin-left:10px;
+	margin-right:10px;
+	font-size: 15px;
+	text-align: left;
+    height: 60px;
+    white-space: nowrap;
+/*
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+*/
+}
+
+.serving-queue-label {
+	margin-top:0px;
+	margin-bottom:5px;
+	margin-left:10px;
+	margin-right:10px;
+	font-size: 15px;
+	text-align: left;
+    height: 60px;
+/*
+    overflow-x: scroll;
+    overflow-y: hidden;
+*/
+    white-space: nowrap;
+}
+
+.overtime-queue-label {
+	margin-top:0px;
+	margin-bottom:5px;
+	margin-left:10px;
+	margin-right:10px;
+	font-size: 16px;
+	text-align: left;
+}
+
+
+.guest-queue {
+	text-align: center;
+	margin-right: 5px;
+	font-size: 16px;
+	border-radius: 50%;
+	color: White;
+	background-color: DarkBlue;
+	width: 50px;
+	height: 50px;
+	border: none;
+}
+
+.serving-queue {
+	text-align: center;
+	margin-right: 5px;
+	font-size: 16px;
+	border-radius: 50%;
+	color: White;
+	background-color: DarkGreen ;
+	width: 50px;
+	height: 50px;
+	border: none;
+}
+
+.overtime-queue {
+	text-align: center;
+	margin-right: 5px;
+	font-size: 18px;
+	border-radius: 50%;
+	color: White;
+	background-color: Red ;
+	width: 50px;
+	height: 50px;
+	border: none;
+}
+
+
+/* DESK ****************/
+.desks {
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.desk {
+	padding:0px;
+	width: 70px;
+	height: 70px;
+	border: 1px solid Chocolate;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-left:10px;
+}
+
+
+
+.desk-amount {
+	text-align: center;
+	padding: 0px;
+	color: Red;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+.desk-name {
+	text-align: center;
+	position: relative;
+	bottom: 2px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+	color: White;
+	background: Brown;
+/*	border-radius: 50%;*/
+	margin-left: auto;
+	margin-right: auto;
+	width: 70px;
+	height:27px;
+}
+
+.desk-image {
+	position: relative;
+	bottom: 12px;
+	margin: auto;
+	margin-top: -3px;
+	width: 60px;
+	height: 48px;
+}
+
+/* HOME SELECT PRODUCTS ****************/
+
+.home-products {
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.home-product {
+	padding:0px;
+	border: 1px solid chocolate;
+	width: 95px;
+	height: 95px;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-left:5px;
+	background-image: url("../img/cafe.png");
+/* 	background-color: #D3D3D3; */
+}
+
+.home-product-name {
+	text-align: center;
+/* 	background-color: Chocolate; */
+	color: DarkRed;
+	margin-top: 5px;
+	margin-left:0px;
+	margin-right:0px;
+	border-radius: 5px;
+	padding: 1px;
+}
+
+
+.home-product-quantity {
+	text-align: center;
+/* 	background-color: Chocolate; */
+	color: DarkRed;
+	margin-top: 5px;
+	margin-left:30px;
+	margin-right:30px;
+	border-radius: 5px;
+	padding: 1px;
+	font-size:16px;
+}
+
+.home-product-price {
+	text-align: center;
+/* 	background-color: Chocolate; */
+	color: DarkRed;
+	margin-top: 5px;
+	margin-left:15px;
+	margin-right:15px;
+	border-radius: 5px;
+	padding: 1px;
+}
+
+.home-product-header{
+	margin-top:5px;
+	margin-left: 5px;
+	margin-right:5px;
+	margin-bottom: 10px;
+	font-weight:Bold;
+	border-bottom: 1px solid LightGrey;
+}
+
+.home-product-row{
+	margin-top:5px;
+	margin-left: 5px;
+	margin-right:5px;
+	text-align: left;
+	border-bottom: 1px solid LightGrey;
+	margin-bottom :10px;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-bold{
+	font-weight: bold;
+}
+
+.home-product-col{
+	padding: 1px;
+	text-align: left;
+}
+
+.btn-xlarge {
+    padding: 10px 16px;
+
+    font-size: 16px;
+    line-height: normal;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+}
+
+.btn-xlarge-minus {
+    padding: 11px 17px;
+    margin-bottom :5px;
+    font-size: 16px;
+    line-height: normal;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+}
+
+.order-item-row{
+	color: Black;
+}
+
+.order-item-updated-row{
+	color: Red;
+	font-weight: Bold;
+}

@@ -1,0 +1,132 @@
+ /* The side navigation menu */
+ 
+ .sidenav {
+ 	height: 100%;
+ 	/* 100% Full-height */
+ 	width: 0;
+ 	/* 0 width - change this with JavaScript */
+ 	position: fixed;
+ 	/* Stay in place */
+ 	z-index: 1;
+ 	/* Stay on top */
+ 	top: 50px;
+ 	left: 0;
+ 	background-color: #f2f2f2;
+ 	/* Black*/
+ 	overflow-x: hidden;
+ 	/* Disable horizontal scroll */
+ 	padding-top: 50px;
+ 	/* Place content 60px from the top */
+ 	transition: 0.5s;
+ 	/* 0.5 second transition effect to slide in the sidenav */
+ }
+ /* The navigation menu links */
+ 
+ .sidenav a {
+ 	padding: 8px 8px 8px 32px;
+ 	text-decoration: none;
+ 	font-size: 25px;
+ 	color: #818181;
+ 	display: block;
+ 	transition: 0.3s
+ }
+ /* When you mouse over the navigation links, change their color */
+ 
+ .sidenav a:hover,
+ .offcanvas a:focus {
+ 	color: #f1f1f1;
+ }
+ /* Position and style the close button (top right corner) */
+ 
+ .closebtn {
+ 	position: absolute;
+ 	top: 0;
+ 	right: 25px;
+ 	font-size: 36px !important;
+ 	margin-left: 50px;
+ }
+ /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+ 
+ #main {
+ 	transition: margin-left .5s;
+ 	padding: 20px;
+ }
+ /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+ 
+ @media screen and (max-height: 450px) {
+ 	.sidenav {
+ 		padding-top: 15px;
+ 	}
+ 	.sidenav a {
+ 		font-size: 18px;
+ 	}
+ }
+ /* Make Header Sticky */
+ 
+ #header_container {
+/* 	margin-top: 100px;*/
+ 	background: #eee;
+/* 	border: 1px solid #666;*/
+ 	height: 72px;
+/* 	left: 250px;*/
+/* 	position: fixed;*/
+ 	width: 100%; 
+ 	top: 0;
+ }
+ 
+ #header {
+ 	line-height: 30px;
+ 	/* 	margin: 0 auto;*/
+ 	width: calc(100vw-250px);
+ 	height: 50px;
+/* 	text-align: center;*/
+ }
+ /* CSS for the content of page. I am giving top and bottom padding of 80px to make sure the header and footer do not overlap the content.*/
+ 
+ #container {
+ 	/* 	margin: 0 auto;*/
+ 	/* 	overflow: auto;*/
+ 	/* 	padding: 80px 0;*/
+ 	/* 	width: calc(100vw-250px);*/
+ }
+ 
+ #content {}
+ /* Make Footer Sticky */
+ 
+ .header-pagination {
+    display: block;
+    margin: auto;
+    width: 50%;
+ }
+ .header-date {
+	left: 0;
+ 	margin-left: 15px;
+ 	margin-top: 6px;
+ 	text-align: left;
+ }
+ 
+ #footer_container {
+ 	background: #eee;
+ 	border: 1px solid #666;
+ 	bottom: 0;
+ 	height: 60px;
+ 	left: 0;
+ 	position: fixed;
+ 	width: 100%;
+ }
+ 
+ #footer {
+ 	line-height: 60px;
+ 	margin: 0 auto;
+ 	width: 940px;
+ 	text-align: center;
+ }  .full button span {
+    background-color: limegreen;
+    border-radius: 32px;
+    color: black;
+  }
+  .partially button span {
+    background-color: orange;
+    border-radius: 32px;
+    color: black;
+  }

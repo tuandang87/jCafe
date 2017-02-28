@@ -1,0 +1,24 @@
+.height-panel-custom {
+	height: 41px;
+}
+
+.panel-header-custom-left {
+	margin-left: 20px;
+	font-weight: bold;
+	text-align: left;
+	font-weight: normal;
+}
+
+.panel-header-custom-center {
+	margin-left: 20px;
+	font-weight: bold;
+	text-align: center;
+	font-weight: normal;
+}
+
+.panel-header-custom-right {
+	margin-left: 20px;
+	font-weight: bold;
+	text-align: right;
+	font-weight: normal;
+}
